@@ -1,0 +1,49 @@
+$main-color: #aadafa;
+$text-color: #111128;
+
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    color: $text-color;
+}
+
+.header {
+    padding: 20px;
+    background: $main-color;
+
+    &__container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin: 0 0 15px;
+        color: white;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 20px;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.text {
+    padding: 30 px;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
